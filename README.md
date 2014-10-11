@@ -49,7 +49,7 @@ public class SampleController {
     }
 
     public static void main(String args[]) {
-        TomEEApplication.run(HelloWorldServlet.class, SampleController.class);
+        TomEEApplication.run(SampleController.class);
     }
 }
 ```
